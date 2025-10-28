@@ -18,6 +18,7 @@
   font-variation-settings: "wdth" 100;
   font-size: 16px;
   width: 960px;
+  color: indigo;
 }
    
   h1 {
@@ -30,11 +31,22 @@
   #site-title {
   }
   
+   header h1 {
+    background-color: white;
+    margin: 40px;
+    padding: 30px;
+    border: solid 12px indigo;
+    border-radius: 5px;
+    text-align: center;
+    color: indigo;
+  }
+  
   nav {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  text-align: center;
   }
   
   ul {
@@ -45,7 +57,7 @@
   
   ul li {   
   display: inline-block;
-  margin-left: 10%;
+  margin-left: 2%;
  
   }
   
@@ -55,11 +67,16 @@
 
   .container {
     display: grid;
-    grid-template-columns: 50% 50%; 
+    grid-template-columns: auto auto; 
     gap: 20px;
   } 
   
   footer {
+    background-color: white;
+    margin: 10px;
+    border: solid 8px indigo;
+    padding: 10px;
+    text-align: center;
   }
   
 </style>
@@ -74,7 +91,7 @@
 </ul>
 </nav>
 <h1>At Greg's Banh Mi, we're serving up the perfect marriage of French and Vietnamese culinary traditions—crispy-on-the-outside, pillowy-on-the-inside baguettes loaded with bold, fresh flavorus that'll make your taste buds sing.</h1>
-<div class="container"> <!-- see if I need this to be a div -->
+<div class="container"> 
   <img src="banh-mi.jpg" alt="Classic Pork Banh Mi from Greg's Restaurant.">
   <img src="banh-mi.jpg" alt="Lemongrass Chicken Banh Mi from Greg's Restaurant.">
   <img src="banh-mi.jpg" alt="Tofu Banh Mi from Greg's Restaurant.">
