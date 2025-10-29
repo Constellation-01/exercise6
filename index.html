@@ -40,6 +40,8 @@
   
   #site-title {
     font-size: 75px;
+    margin: 0;
+    padding: 0;
   }
   
   nav {
@@ -53,8 +55,11 @@
  
   ul li {   
   display: inline-block;
-  margin-left: 6%;
- 
+  margin-right: 6%;
+  }
+  
+  ul li:last-child {
+  margin-right: 0;  
   }
   
   ul li:hover {
@@ -71,9 +76,14 @@
 
   .container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     gap: 30px;
+    margin: 0 auto;
   } 
+  
+  img {
+    width: 100%;
+  }
   
   .banh-mi-1 {
     background-color: lavender;
@@ -109,14 +119,14 @@
   
   footer {
     background-color: lavender;
-    margin: 40px;
+    margin: 40px auto;
     border: solid 5px darkmagenta;
     border-radius: 12px;
     padding: 16px;
     text-align: center;
     font-size: 28px;
     font-family: "Open Sans", sans-serif;
-    color: darkmagenta
+    color: darkmagenta;
   }
   
 </style>
